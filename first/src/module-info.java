@@ -18,7 +18,7 @@ public class JDBCConnection {
             //String url = "jdbc:mysql://127.0.0.1:3306";
             String url = "jdbc:mysql://localhost:3306/employeedetails";
             String uname = "root";
-            String pass = "root";
+            String pass = "praneeth1999";
             Class.forName("com.mysql.jdbc.Driver");
             String query ="select * from employee;";
             //establish the connection
